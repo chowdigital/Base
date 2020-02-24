@@ -126,9 +126,9 @@ function base_theme_scripts() {
 
 	wp_enqueue_script( 'smootstate-js', 'https://cdnjs.cloudflare.com/ajax/libs/smoothState.js/0.7.2/jquery.smoothState.min.js', array( 'jquery' ), '0.7.2' );
 
-	wp_enqueue_script( 'script-js', trailingslashit( get_stylesheet_directory_uri() ) . 'assets/js/script.min.js' , array( 'jquery', 'smootstate-js' ), '1.0.0', true );
+	wp_enqueue_script( 'script-js', trailingslashit( get_stylesheet_directory_uri() ) . 'js/scripts.js' , array( 'jquery', 'smootstate-js' ), '1.0.0', true );
 
-	wp_enqueue_script( 'base-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	/*wp_enqueue_script( 'base-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );*/
 
 	wp_enqueue_script( 'base-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
@@ -139,7 +139,7 @@ function base_theme_scripts() {
 		wp_enqueue_script( 'maps_api', 'https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDM26xB-jnJUKnkSbQxx_E2JLX5zo07LXU', array());
 		
 		wp_enqueue_script( 'reviews-js', get_template_directory_uri() . '/js/jquery-google-reviews.js', array(), true );
-		
+
 	// GOOGLE REVIEW END
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

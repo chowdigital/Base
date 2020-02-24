@@ -16,14 +16,14 @@ Thank you guys!
     // This is the easiest way to have default options.
     var settings = $.extend({
       // These are the defaults.
-      header: "<h3>Google Reviews</h3>",
+      header: "<h2>Latest Google Reviews</h2>",
       footer: '',
       maxRows: 6,
       minRating: 4,
       months: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
       textBreakLength: "90",
       shortenNames: true,
-      placeId: "",
+      placeId: "ChIJJ7Vh17MddkgRf6OfLqsPA7k",
       moreReviewsButtonUrl: '',
       moreReviewsButtonLabel: 'Show More Reviews',
       writeReviewButtonUrl: '',
