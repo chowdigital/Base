@@ -8,6 +8,10 @@
   // START :  Do Things
   function dothings() {
 
+ $("img").addClass("wp-image-link);
+
+
+
 
  
 // END: Google Places .js file
@@ -34,7 +38,7 @@ $( function() {
 
   var settings = { 
     anchors: 'a',
-    blacklist: '.wp-link',
+    blacklist: '.wp-link', '.wp-image-link',
     onStart: {
       duration: 280,
       render: function ( $container ) {
@@ -66,7 +70,6 @@ $( function() {
   $( '#page' ).smoothState( settings );
 } );
 
-$('#mc_embed_signup').smoothState({ blacklist: '.no-smoothState' });
 
 // end of script
 })(jQuery, this);
