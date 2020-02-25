@@ -38,6 +38,10 @@ jQuery(document).ready(function($) {
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'base-theme' ), 'base-theme', '<a href="http://seancloudsdale.com">Sean Cloudsdale</a>' );
 				?>
 		</div><!-- .site-info -->
+
+	<div class="no-smoothState">
+		<?php echo do_shortcode( '[contact-form-7 id="7" title="Contact Form 1"]' ); ?>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

@@ -66,6 +66,7 @@ $( function() {
   $( '#page' ).smoothState( settings );
 } );
 
+$('#mc_embed_signup').smoothState({ blacklist: '.no-smoothState' });
 
 // end of script
 })(jQuery, this);
