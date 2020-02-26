@@ -8,7 +8,6 @@
   // START :  Do Things
   function dothings() {
 
- $("img").addClass("wp-image-link);
 
 
 
@@ -38,7 +37,7 @@ $( function() {
 
   var settings = { 
     anchors: 'a',
-    blacklist: '.wp-link', '.wp-image-link',
+    blacklist: '.wp-link',
     onStart: {
       duration: 280,
       render: function ( $container ) {
