@@ -37,7 +37,7 @@ $( function() {
 
   var settings = { 
     anchors: 'a',
-    blacklist: '.wp-link',
+    blacklist: '.wp-link, figure a, input',
     onStart: {
       duration: 280,
       render: function ( $container ) {
